@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viktor Kabelkov - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 30px;
+            font-size: 15px;
+            line-height: 1.35;
+        }
+        /* The Colored Frame */
+        .resume-container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-top: 8px solid #2c3e50; /* Navy Blue Accent */
+            border-bottom: 8px solid #2c3e50;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 18px;
+            margin-bottom: 18px;
+            position: relative;
+        }
+        .profile-photo {
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+        }
+        h1 { margin: 0; margin-left: 150px; color: #2c3e50; text-transform: uppercase; letter-spacing: 1px; font-size: 2.76em; }
+        .subtitle { font-weight: bold; color: #16a085; margin: 5px 0; margin-left: 150px; font-size: 1.5em; }
+        .contact-info { font-size: 1.15em; color: #666; margin-left: 150px; }
+        h2 { border-left: 4px solid #16a085; padding-left: 8px; color: #2c3e50; font-size: 1.1em; text-transform: uppercase; margin-top: 15px; margin-bottom: 8px; }
+        .job-title { font-weight: bold; display: flex; justify-content: space-between; align-items: center; font-size: 0.95em; margin-bottom: 4px; }
+        .company { color: #16a085; font-style: italic; display: inline-flex; align-items: center; gap: 8px; }
+        .company a { color: inherit; text-decoration: none; }
+        .company a:hover { text-decoration: underline; }
+        .company-logo { width: 24px; height: 24px; object-fit: contain; vertical-align: middle; }
+        .date { color: #777; font-size: 0.85em; }
+        ul { padding-left: 18px; margin-top: 3px; margin-bottom: 10px; }
+        li { margin-bottom: 3px; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-tag { background: #ecf0f1; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; border: 1px solid #bdc3c7; }
+        p { margin: 8px 0; }
+
+        @page {
+            size: letter;
+            margin: 0.4in 0.5in 0.42in;
+        }
+
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+                font-size: 12.2px;
+                line-height: 1.3;
+            }
+            .resume-container {
+                max-width: none;
+                border-top: none;
+                border-bottom: none;
+                box-shadow: none;
+                padding: 0;
+            }
+            header {
+                padding-bottom: 6px;
+                margin-bottom: 6px;
+            }
+            .profile-photo {
+                width: 72px;
+                height: 72px;
+                left: 0;
+                border-width: 2px;
+            }
+            h1 {
+                margin-left: 84px;
+                font-size: 21px;
+                letter-spacing: 0.4px;
+            }
+            .subtitle {
+                margin: 2px 0 1px 84px;
+                font-size: 12px;
+            }
+            .contact-info {
+                margin-left: 84px;
+                font-size: 10.5px;
+                line-height: 1.3;
+            }
+            h2 {
+                margin-top: 9px;
+                margin-bottom: 3px;
+                font-size: 12px;
+                break-after: avoid;
+            }
+            .job-title {
+                margin-bottom: 0;
+                break-after: avoid;
+            }
+            ul {
+                margin-top: 2px;
+                margin-bottom: 7px;
+            }
+            li {
+                margin-bottom: 2px;
+            }
+            p {
+                margin: 2px 0 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header>
+        <img src="IMG_1453.jpeg" alt="Viktor Kabelkov" class="profile-photo">
+        <h1>VIKTOR KABELKOV</h1>
+        <p class="subtitle">Senior QA Automation Engineer | AI Testing</p>
+        <div class="contact-info">
+            Folsom, CA | +14155259731 | vkabelkov@gmail.com | US Citizen
+            <br>
+            <a href="https://www.linkedin.com/in/vik-kabelkov">LinkedIn</a> | <a href="https://public.tableau.com/app/profile/viktor.kabelkov/vizzes">Tableau Vizzes</a> | <a href="https://github.com/Vik1975">GitHub</a> | <a href="https://vik1975.github.io/Portfolio/">Portfolio</a>
+        </div>
+    </header>
+
+    <h2>Professional Summary</h2>
+    <p>Senior QA Engineer specializing in <strong>AI-powered test automation</strong>, manual testing, and quality evaluation across web, mobile, and <strong>connected medical/healthcare device platforms</strong>. Expert in translating requirements into comprehensive test cases, onboarding scenarios into automated testing agents, and validating execution quality. Proven experience assessing <strong>AI/ML systems</strong>, DOM-level validation, tracking event verification, and agent-driven testing workflows. Strong technical foundation in <strong>JavaScript, Python, Selenium, and Playwright</strong>, with hands-on experience in test case management (TestRail), bug tracking (Jira), and cross-functional collaboration. Skilled at identifying coverage gaps, providing structured feedback for automation improvements, and communicating testing insights to both technical and non-technical stakeholders.</p>
+    <p>AI testing work covers <strong>LLM and generative AI output evaluation</strong>: rubric-based grading, golden datasets, regression across model versions, hallucination and factuality checks, and adversarial prompts that probe safety and policy compliance. Alongside it sit accessibility and internationalization passes, API checks in Postman, and regression before a build is signed off. Holds an <strong>Artificial Intelligence Testing certification</strong>.</p>
+
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>AI & Agent Testing:</strong> AI-Powered QA Agent Evaluation, LLM Output Evaluation, Prompt Test Design, Golden Datasets, Rubric-Based Grading, Hallucination & Factuality Checks, Adversarial / Red-Team Prompting, Safety & Policy Compliance, Model Regression Across Versions, Bias Detection, A/B Testing, Baseline Comparison.</li>
+        <li><strong>Scripting & Test Code:</strong> Python, pytest, TypeScript, REST API testing, SQL.</li>
+        <li><strong>Test Management & QA:</strong> TestRail, Jira, Test Case Design, User Journey Mapping, Functional & Exploratory Testing, Black-Box/Gray-Box Testing.</li>
+        <li><strong>Automation Frameworks:</strong> Selenium, Appium, Cypress, Playwright, Cucumber.</li>
+        <li><strong>Languages & Libraries:</strong> JavaScript, Python, TypeScript, CSS/HTML, SQL, DOM Manipulation.</li>
+        <li><strong>Web, Mobile & IoT Testing:</strong> Medical Device Peripherals (BLE/USB vitals monitors), Hospital Point-of-Care Android Systems, Android CTS, ADB, DOM Inspection, iOS (Xcode), AR/VR Systems.</li>
+        <li><strong>API & Tools:</strong> Postman (API Testing), Git, AWS, CI/CD (GitHub Actions, GitLab CI).</li>
+        <li><strong>Data Management:</strong> MySQL, PostgreSQL, MongoDB, ETL Processes, SQL queries for reporting.</li>
+        <li><strong>Engineering practices:</strong> Code review, API contract tests, Agile sprint planning, build sign-off, root-cause analysis.</li>
+        <li><strong>Quality scope:</strong> Functional, regression, exploratory, system, accessibility, internationalization, and release sign-off on web, iOS, Android, connected medical devices, and AR/VR.</li>
+        <li><strong>Reporting:</strong> TestRail repositories, Jira defect lifecycle, stakeholder test summaries, and coverage gaps called out before release.</li>
+    </ul>
+
+    <h2>Professional Experience</h2>
+
+    <div class="job-title">
+        <span>QA Test Analyst II — <span class="company">Meta</span> — Burlingame, CA</span>
+        <span class="date">08/2024 - Present</span>
+    </div>
+    <ul>
+        <li>Onboard and evaluate test scenarios for <strong>AI-powered QA agent</strong> across web and mobile platforms, validating agent execution quality and identifying automation improvement opportunities.</li>
+        <li>Translate functional requirements and user journeys into agent-executable test workflows, assessing whether automated test scenarios execute correctly end-to-end.</li>
+        <li>Validate <strong>DOM-level elements and tracking events</strong> using JavaScript and browser inspection tools, ensuring accurate test coverage and data integrity for automated agents.</li>
+        <li>Lead quality assurance for <strong>AR/VR applications</strong>, performing comprehensive functional, exploratory, system, and regression testing to ensure high-end user satisfaction.</li>
+        <li>Ensure algorithmic fairness and detect bias in <strong>AI/ML systems</strong>, validating model performance and providing structured feedback for continuous agent improvement.</li>
+        <li>Evaluate <strong>LLM and generative AI responses</strong> against written rubrics for accuracy, relevance, completeness, and tone, and flag <strong>hallucinations</strong> and unsupported claims.</li>
+        <li>Build and maintain <strong>golden datasets</strong> of prompts with expected outcomes, and rerun them against each new model or agent version to catch regressions before rollout.</li>
+        <li>Design <strong>adversarial and edge-case prompts</strong> (ambiguous input, prompt injection, policy-sensitive topics) to test safety guardrails and <strong>content-policy compliance</strong>.</li>
+        <li>Test <strong>AI features in AR/VR</strong>, including voice and multimodal input, checking that responses stay correct and consistent across devices, languages, and repeated runs.</li>
+        <li>Compare agent runs against <strong>baselines and A/B variants</strong>, separating true defects from non-deterministic output, and log reproducible failure cases in Jira with prompts, outputs, and expected behavior.</li>
+        <li>Created automated <strong>Python scripts</strong> for performance testing to measure events' launch time and data usage, saving <strong>5 hours per test run</strong>.</li>
+        <li>Developed comprehensive <strong>test plans and test cases in TestRail</strong> based on product requirements, maintaining and expanding test case repositories for emerging features.</li>
+        <li>Analyze execution results, identify trends in agent performance, and surface insights to recommend improvements for test reliability and automation effectiveness.</li>
+        <li>Communicate testing status, findings, and risk assessments clearly to cross-functional stakeholders including engineers, product managers, and technical leadership.</li>
+        <li>Applied <strong>Agile methodology</strong> principles, participating in sprint planning, daily standups, and retrospectives to drive continuous improvement.</li>
+    </ul>
+
+    <div class="job-title">
+        <span>Senior QA Automation Engineer — <span class="company">Mason America</span> — Seattle, WA</span>
+        <span class="date">05/2023 - 08/2024</span>
+    </div>
+    <ul>
+        <li>Directed the execution of the <strong>Android Compatibility Test Suite (CTS)</strong> across multiple devices to guarantee compliance with Google standards.</li>
+        <li>Developed and maintained automated test scripts in <strong>JavaScript</strong> for mobile device compatibility and UI interaction testing.</li>
+        <li>Leveraged <strong>Appium and WDIO frameworks</strong> to boost test execution efficiency by <strong>35%</strong> and cut manual testing efforts by <strong>20%</strong>. Enhanced product quality by integrating early issue detection into the development cycle.</li>
+        <li>Created an automated <strong>JavaScript test script</strong> for configuration deployment to Android devices, saving <strong>4 hours per test run</strong>.</li>
+        <li>Configured and optimized <strong>CI/CD pipelines using GitLab CI/CD and CRON jobs</strong>, increasing deployment frequency by <strong>40%</strong>.</li>
+        <li>Optimized mobile dashboards on Chrome/Firefox and developed device management solutions to enhance security and performance.</li>
+        <li>Tested and validated connected <strong>medical devices and healthcare peripherals</strong> (vital sign monitors, pulse oximeters, diagnostic sensors, barcode scanners via BLE/USB) paired with Mason enterprise Android devices deployed across <strong>hospitals and healthcare provider networks</strong>.</li>
+        <li>Executed end-to-end integration and <strong>API testing via Postman</strong> for healthcare IoT solutions, ensuring reliable patient vitals telemetry transmission, pairing stability, and compliance with clinical workflows.</li>
+        <li>Engineered <strong>SQL queries</strong> for customer dashboard data ETL (Extract, Transform, Load).</li>
+        <li>Signed off monthly builds after regression, and documented defects with root-cause notes for the development team.</li>
+    </ul>
+
+    <div class="job-title">
+        <span>User Acceptance Product Evaluator — <span class="company">LinkedIn</span> — Sunnyvale, CA</span>
+        <span class="date">05/2022 - 05/2023</span>
+    </div>
+    <ul>
+        <li>Headed <strong>UAT (User Acceptance Testing)</strong> for new product features, ensuring compliance and high-quality delivery.</li>
+        <li>Executed <strong>a11y (Accessibility)</strong> and <strong>i18n (Internationalization)</strong> testing on iOS and Android platforms.</li>
+        <li>Conducted <strong>API testing using Postman</strong> to validate backend services, ensuring data integrity and proper endpoint functionality.</li>
+        <li>Tested web pages on Windows and macOS across Chrome, Safari, Firefox, and Edge.</li>
+        <li>Managed the full bug lifecycle using Jira, collaborating directly with developers to resolve software malfunctions.</li>
+    </ul>
+
+    <div class="job-title">
+        <span>QA Test Analyst II — <span class="company">Meta</span> — Burlingame, CA</span>
+        <span class="date">09/2021 - 05/2022</span>
+    </div>
+    <ul>
+        <li>Conducted manual and mobile testing for AR/VR applications and iOS/Android devices.</li>
+        <li>Utilized <strong>ADB</strong> to simulate user actions, execute test cases, and analyze device logs for root cause analysis.</li>
+        <li>Tested iOS apps and checked API responses in Postman alongside the Android runs.</li>
+        <li>Developed comprehensive test plans and cases in <strong>TestRail</strong> based on Product Requirement Documents (PRDs).</li>
+    </ul>
+
+    <div class="job-title">
+        <span>Manual QA Software Tester — <span class="company">Russian School of Mathematics</span> — Sunnyvale, CA</span>
+        <span class="date">01/2017 - 08/2021</span>
+    </div>
+    <ul>
+        <li>Created and executed <strong>test plans for desktop software</strong>, ensuring comprehensive coverage of functional requirements.</li>
+        <li>Implemented <strong>Behavior-Driven Development (BDD)</strong> web testing using Cucumber, Selenium, and TypeScript.</li>
+        <li>Performed <strong>UI testing for student/teacher web portals</strong> on a regular basis, identifying and documenting defects.</li>
+        <li>Reported quality metrics and test results to stakeholders, providing actionable insights for product improvements.</li>
+        <li>Contributed to team skill development and QA process optimization initiatives.</li>
+    </ul>
+
+    <h2>Education & Certifications</h2>
+    <ul>
+        <li><strong>Data Analysis Graduate Program</strong> | <a href="https://www.parchment.com/u/award/a59bfec0576239bfe5d812f5fd27d84d">UC Berkeley, CA</a> | 2024</li>
+        <li><strong>M.S. Mechanical Engineering & Applied Mathematics</strong> | Rostov State University completed 1997</li>
+        <li><strong>ISTQB Foundational Level</strong> | <a href="https://atsqa.org/certified-testers/profile/fe7f1b4d77f8402084974f1d0b5530c1">Certified</a></li>
+        <li><strong>Artificial Intelligence Testing Certification</strong> | <a href="https://atsqa.org/certified-testers/profile/fe7f1b4d77f8402084974f1d0b5530c1">Certified</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
